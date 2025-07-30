@@ -1,4 +1,48 @@
-# 1.
+#rectangle pattern
+n=int(input())
+for i in range(n):
+    for j in range(n):
+        print("*",end="")
+    print()
+
+output:
+****
+****
+****
+****
+
+
+#triangle pattern:
+
+n=int(input())
+for i in range(n):
+    for j in range(i+1):
+        print("*",end="")
+    print()
+output:
+*
+**
+***
+****
+
+
+#reverse triangle:
+n=int(input())
+for i in range(n):
+    for j in range(n-i):
+        print("*",end="")
+    print()
+
+output:
+****
+***
+**
+*
+
+
+
+
+# patten
 n=int(input())
 for i in range(n):
     for j in range(n-i-1):
@@ -14,7 +58,7 @@ output:
 *******
 
 
-#2.reverse above pattern:
+#.reverse above pattern:
      n=int(input())
 for i in range(n):
     for j in range(i):
@@ -29,7 +73,7 @@ for i in range(n):
   ***
    *
 
-#3.combination of both pattern of above:
+#.combination of both pattern of above:
   n=int(input())
 for i in range(n-1):
     for j in range(n-i-1):
@@ -53,7 +97,7 @@ output:
    *
 
 
-#4.combination of triangle
+#.combination of triangle
      n=int(input())
 for i in range(n-1):
     for j in range(i+1):
