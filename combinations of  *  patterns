@@ -1,0 +1,79 @@
+# 1.
+n=int(input())
+for i in range(n):
+    for j in range(n-i-1):
+        print(" ",end="")
+    for j in range(2*i+1):
+        print("*",end="")
+    print()
+    
+output:
+   *
+  ***
+ *****
+*******
+
+
+#2.reverse above pattern:
+     n=int(input())
+for i in range(n):
+    for j in range(i):
+        print(" ",end="")
+    for j in range(2*(n-i)-1):
+        print("*",end="")
+    print()
+
+ output:
+*******
+ *****
+  ***
+   *
+
+#3.combination of both pattern of above:
+  n=int(input())
+for i in range(n-1):
+    for j in range(n-i-1):
+        print(" ",end="")
+    for j in range(2*i+1):
+        print("*",end="")
+    print()
+for i in range(n):
+    for j in range(i):
+        print(" ",end="")
+    for j in range(2*(n-i)-1):
+        print("*",end="")
+    print()
+output:
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
+
+
+#4.combination of triangle
+     n=int(input())
+for i in range(n-1):
+    for j in range(i+1):
+        print("*",end="")
+    print()
+for i in range(n):
+    for j in range(n-i):
+        print("*",end="")
+    print()
+output:
+*
+**
+***
+****
+***
+**
+*
+
+
+  #5.
+
+
+     
